@@ -1,0 +1,30 @@
+# Ambiente virtual
+venv/
+env/
+
+# Cache do Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Arquivos de configuração locais
+*.sqlite3
+*.env
+.env
+*.log
+
+# Arquivos temporários
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.swp
+
+# Build e distribuição (caso tu gere pacotes)
+build/
+dist/
+*.egg-info/
+
+# Testes e relatórios
+.coverage
+htmlcov/
