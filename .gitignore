@@ -28,3 +28,6 @@ dist/
 # Testes e relatórios
 .coverage
 htmlcov/
+
+# Arquivos estáticos
+/staticfiles/
