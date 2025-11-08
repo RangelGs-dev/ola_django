@@ -26,6 +26,7 @@ body {
 
 @media (min-width: 1027px) {
   .content {
-    grid-template-columns: repeat(3, 1fr);
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(16rem, 1fr));
   }
 }
